@@ -13,7 +13,8 @@ def search(A, target):
                 end = mid
             else:
                  start = mid
-        # here m in red line (bottom)
+        # here m in red line (bot
+        # tom)
         else:
             if A[end] >= target and target >= A[mid]:
                 start = mid
